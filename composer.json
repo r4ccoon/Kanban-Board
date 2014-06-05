@@ -1,0 +1,7 @@
+{
+	"require": {
+		"knplabs/github-api": "*",
+		"vierbergenlars/php-semver": "*"
+	},
+	"minimum-stability": "dev"
+}
