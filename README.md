@@ -117,7 +117,7 @@ everything is inside something else. Here's what they look like:
 		- `{tasks_incomplete}` - the number of incomplete tasks
 		- `{tasks_complete}` - the number of complete tasks
 		- `{tasks_percentage}` - the percentage of tasks completed
-		- `{tasks_progress}` - the progress of the tasks based on various ranges and `{tasks_percentage}` (`quarter` when `{tasks_percentage}` > 25, `half` when `{tasks_percentage}` > 50, 'third' when `{tasks_percentage}` > 75, 'done' when `{tasks_percentage}` == 100)
+		- `{tasks_progress}` - the progress of the tasks based on various ranges and `{tasks_percentage}` (`quarter` when `{tasks_percentage}` > 25, `half` when `{tasks_percentage}` > 50, `third` when `{tasks_percentage}` > 75, `done` when `{tasks_percentage}` == 100)
 
 #### Example
 
