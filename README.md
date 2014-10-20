@@ -171,6 +171,11 @@ everything is inside something else. Here's what they look like:
 Changelog
 ---------
 
+### 1.0.1
+
+- Fixed a bug where pulling issues without a label would result in no issues
+- Updated the composer packages
+
 ### 1.0.0
 
 - Initial release

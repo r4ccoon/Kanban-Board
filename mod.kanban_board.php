@@ -214,10 +214,18 @@ class Kanban_board {
 		try {
 			// Note: GitHub API wants milestone to be the milestone number, not
 			// the name
+
+			$issue_parameters = array('milestone' => $milestone_id);
+
+			if ($label)
+			{
+				$issue_parameters['labels'] = $label;
+			}
+
 			$issue_request = $this->client->api('issue')->all(
 				$this->account,
 				$repository,
-				array("labels" => $label, "milestone" => $milestone_id)
+				$issue_parameters
 			);
 		} catch (Exception $e) {
 			// Exceptions come up when you try to get a milestone from the wrong

@@ -11,7 +11,7 @@
 
 class Kanban_board_upd {
 
-	public $version = '1.0';
+	public $version = '1.0.1';
 
 	/**
 	 * Installation Method
